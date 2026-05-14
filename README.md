@@ -1,5 +1,4 @@
 # Rahul K Portfolio
-# live link :  https://rahul87-portfolio.netlify.app/
 Modern responsive developer portfolio built using HTML, CSS, JavaScript and EmailJS.
 
 ## Features
