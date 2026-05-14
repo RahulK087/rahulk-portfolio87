@@ -1,0 +1,921 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+    <!-- =====BOX ICONS===== -->
+    <link href="https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css" rel="stylesheet">
+
+    <!-- =====fade down ===== -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- =====FONT AWESOME ICONS===== -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" class="stylesheet">
+
+    <title>Rahul K | Developer Portfolio</title>
+  </head>
+
+  <body>
+    <div class="scroll-progress" id="scroll-progress" aria-hidden="true"></div>
+    <div class="cursor-glow" id="cursor-glow" aria-hidden="true"></div>
+    <div class="toast-stack" id="toast-stack" aria-live="polite" aria-atomic="false"></div>
+
+    <!--===== HEADER =====-->
+    <header class="l-header" id="header">
+      <nav class="nav bd-grid">
+        <a href="#home" class="nav__logo" aria-label="Rahul K home">
+          <span class="nav__logo-mark">RK</span>
+          <span class="nav__logo-text">Rahul K</span>
+        </a>
+
+        <div class="nav__menu" id="nav-menu" aria-label="Primary navigation">
+          <ul class="nav__list">
+            <li class="nav__item"><a href="#home" class="nav__link active-link">Home</a></li>
+            <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+            <li class="nav__item"><a href="#education" class="nav__link">Education</a></li>
+            <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+            <li class="nav__item"><a href="#projects" class="nav__link">Projects</a></li>
+            <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+          </ul>
+        </div>
+
+        <button class="nav__toggle" id="nav-toggle" type="button" aria-label="Toggle navigation" aria-expanded="false" aria-controls="nav-menu">
+          <span class="nav__toggle-line"></span>
+          <span class="nav__toggle-line"></span>
+          <span class="nav__toggle-line"></span>
+        </button>
+      </nav>
+    </header>
+
+    <main class="l-main">
+      <!--===== HOME =====-->
+      <section class="home section" id="home">
+        <div class="home__background" aria-hidden="true">
+          <span class="home__orb home__orb--one"></span>
+          <span class="home__orb home__orb--two"></span>
+          <span class="home__orb home__orb--three"></span>
+          <span class="home__grid-glow"></span>
+        </div>
+
+        <div class="home__container bd-grid">
+          <div class="home__data">
+            <span class="home__eyebrow">
+              <span class="home__eyebrow-dot"></span>
+              Java Full-Stack Developer
+            </span>
+
+            <h1 class="home__title">
+              Full-Stack Java developer building
+              <span class="home__title-color">scalable modern <span class="home__title-small">systems.</span></span>
+              <div class="home__social">
+              <a href="mailto:rahule872001@gmail.com" class="home__social-icon" aria-label="Email Rahul">
+                <i class="fa fa-envelope"></i>
+              </a>
+              <a href="https://github.com/RahulK087" class="home__social-icon" aria-label="Rahul on GitHub" target="_blank" rel="noreferrer">
+                <i class="fa-brands fa-github"></i>
+              </a>
+              <a href="https://leetcode.com/u/Rahul_087/" class="home__social-icon" aria-label="Rahul on LeetCode" target="_blank" rel="noreferrer">
+                <i class="fa fa-code"></i>
+              </a>
+              <a href="https://www.linkedin.com/in/rahul-k-7b3923264" class="home__social-icon" aria-label="Rahul on LinkedIn" target="_blank" rel="noreferrer">
+                <i class="fa-brands fa-linkedin"></i>
+              </a>
+            </div>
+            </h1>
+
+            <p class="home__description">
+              Backend-focused developer building Java APIs, MySQL-backed services, React interfaces, and practical full-stack products.
+            </p>
+
+            <div class="home__roles">
+              <span class="home__roles-label">Focused on</span>
+              <span class="role"
+                data-roles="Java Full Stack Developer|Spring Boot Backend Engineer|Scalable Backend Systems|React UI Development"
+                aria-live="polite">
+                Java Full Stack Developer
+              </span>
+            </div>
+
+            <div class="home__actions">
+              <a href="#contact" class="button button--primary">Let's Connect</a>
+              <a href="#projects" class="button button--secondary">View Projects</a>
+            </div>
+
+            <div class="home__highlights">
+              <div class="home__highlight">
+                <span>Location</span>
+                <strong>Chennai, India</strong>
+              </div>
+              <div class="home__highlight">
+                <span>Strength</span>
+                <strong>Backend Systems and Clean UI</strong>
+              </div>
+              <div class="home__highlight">
+                <span>Stack</span>
+                <strong>Java, Spring Boot, ReactJS, MySQL</strong>
+              </div>
+            </div>
+
+          </div>
+
+          <aside class="home__hero">
+            <div class="home__visual profile-visual">
+              <div class="home__visual-shell">
+                <span class="home__visual-glow home__visual-glow--one" aria-hidden="true"></span>
+                <span class="home__visual-glow home__visual-glow--two" aria-hidden="true"></span>
+                <span class="home__glass-panel home__glass-panel--one" aria-hidden="true"></span>
+                <span class="home__glass-panel home__glass-panel--two" aria-hidden="true"></span>
+
+                <div class="home__portrait-showcase">
+                  <span class="home__portrait-ring home__portrait-ring--outer" aria-hidden="true"></span>
+                  <span class="home__portrait-ring home__portrait-ring--inner" aria-hidden="true"></span>
+                  <span class="home__portrait-glow" aria-hidden="true"></span>
+                  <div class="home__portrait-card">
+                    <img src="assets/img/Rahul.jpeg" alt="Portrait of Rahul K" class="home__portrait">
+                  </div>
+                </div>
+
+                <div class="home__stack-pills" aria-label="Core stack">
+                  <span class="tech-pill java-pill"><i class="fa-brands fa-java" aria-hidden="true"></i>Java</span>
+                  <span class="tech-pill spring-pill"><i class="fa-solid fa-leaf" aria-hidden="true"></i>Spring Boot</span>
+                  <span class="tech-pill react-pill"><i class="fa-brands fa-react" aria-hidden="true"></i>ReactJS</span>
+                  <span class="tech-pill mysql-pill"><i class="fa-solid fa-database" aria-hidden="true"></i>MySQL</span>
+                </div>
+              </div>
+            </div>
+          </aside>
+        </div>
+      </section>
+
+      <!--===== ABOUT =====-->
+      <section class="about section" id="about">
+        <div class="section-title">About</div>
+
+        <div class="about__container bd-grid">
+          <div class="about__visual">
+            <div class="about__img">
+              <img src="assets/img/about.gif" alt="Animated illustration representing Rahul's development workflow">
+            </div>
+            <div class="about__status-card">
+              <span class="about__status-label">Based in Chennai</span>
+              <strong>Java Full-Stack Developer</strong>
+              <p>Backend-first delivery with modern interface polish.</p>
+            </div>
+          </div>
+
+          <div class="about__content">
+            <span class="about__eyebrow">Quick Intro</span>
+            <h2 class="about__subtitle">Building backend clarity with premium interface polish.</h2>
+            <p class="about__lead">
+              I focus on Java and Spring Boot services, MySQL-backed flows, and responsive React experiences designed to stay practical, scalable, and easy to maintain.
+            </p>
+
+            <div class="about__pill-list" role="list" aria-label="About specialties">
+              <span role="listitem">Spring Boot APIs</span>
+              <span role="listitem">MySQL Workflows</span>
+              <span role="listitem">React Interfaces</span>
+              <span role="listitem">DSA Practice</span>
+            </div>
+
+            <div class="about__info-grid">
+              <div class="about__info-card">
+                <span>Experience</span>
+                <strong>Fresher</strong>
+              </div>
+              <div class="about__info-card">
+                <span>Degree</span>
+                <strong>B.Tech IT</strong>
+              </div>
+              <div class="about__info-card">
+                <span>Email</span>
+                <strong>rahule872001@gmail.com</strong>
+              </div>
+              <div class="about__info-card">
+                <span>Open To</span>
+                <strong>Full-Stack Roles</strong>
+              </div>
+            </div>
+
+            <div class="about__actions">
+              <a href="https://drive.google.com/file/d/1nP38Kc_gOQywaMxmUpRF755d5xUg8hIP/view?usp=drive_link" target="_blank" rel="noreferrer" class="btn">
+                <span>Resume</span>
+                <i class="fas fa-chevron-right"></i>
+              </a>
+              <a href="#contact" class="button button--secondary">Contact Me</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--===== EDUCATION =====-->
+      <section class="education section" id="education">
+        <div class="section-title">Education</div>
+        <p class="section-copy education__copy">
+        </p>
+        <p class="section-copy education__copy">
+          Experience handling US customer chat support workflows while continuously learning scalable backend development, Java systems, React interfaces, and full-stack engineering.
+        </p>
+        <div class="education__overview">
+          <div class="education__metric">
+            <span>Graduate</span>
+            <strong>2023</strong>
+            <p>Information Technology</p>
+          </div>
+          <div class="education__metric">
+            <span>Experience</span>
+            <strong>Fresher</strong>
+            <p>Academic to product-focused growth</p>
+          </div>
+          <div class="education__metric">
+            <span>Core Growth</span>
+            <strong>Java, SQL, DSA</strong>
+            <p>System thinking and development fundamentals</p>
+          </div>
+        </div>
+        <div class="education__timeline">
+          <article class="education__item">
+            <div class="education__card">
+              <div class="education__media">
+                <img draggable="false" src="./assets/img/MEC1.jpg" alt="Mahendra Engineering College campus">
+                <span class="education__period">2019 - 2023</span>
+              </div>
+              <div class="education__content">
+                <span class="education__badge">Higher Education</span>
+                <h3>Bachelor of Technology in Information Technology</h3>
+                <p class="education__institution">Mahendra Engineering College, Namakkal</p>
+                <p class="education__summary">
+                  Strengthened my foundation in software development, databases, and structured problem solving while moving toward practical full-stack implementation.
+                </p>
+                <div class="education__journey" role="list" aria-label="Bachelor of Technology learning focus">
+                  <span role="listitem">Java Foundations</span>
+                  <span role="listitem">SQL &amp; Databases</span>
+                  <span role="listitem">Project Execution</span>
+                </div>
+                <div class="education__highlights" role="list" aria-label="Bachelor of Technology highlights">
+                  <span role="listitem">IT Graduate</span>
+                  <span role="listitem">2023 Completed</span>
+                  <span role="listitem">Project-Driven Learning</span>
+                </div>
+              </div>
+            </div>
+            <div class="education__marker" aria-hidden="true">
+              <span class="education__marker-core"></span>
+            </div>
+          </article>
+
+          <article class="education__item">
+            <div class="education__card">
+              <div class="education__media">
+                <img draggable="false" src="./assets/img/School.jpg" alt="Wyckoff Higher Secondary School building">
+                <span class="education__period">2017 - 2019</span>
+              </div>
+              <div class="education__content">
+                <span class="education__badge">School Foundation</span>
+                <h3>HSC Maths | Biology</h3>
+                <p class="education__institution">Wyckoff Higher Secondary School, Villupuram</p>
+                <p class="education__summary">
+                  Built analytical discipline through mathematics and biology, shaping the structured thinking that later supported programming and systems work.
+                </p>
+                <div class="education__journey" role="list" aria-label="Higher secondary learning focus">
+                  <span role="listitem">Maths Precision</span>
+                  <span role="listitem">Logic Building</span>
+                  <span role="listitem">Problem Solving Base</span>
+                </div>
+                <div class="education__highlights" role="list" aria-label="Higher secondary highlights">
+                  <span role="listitem">Maths | Biology</span>
+                  <span role="listitem">Analytical Thinking</span>
+                  <span role="listitem">Strong Fundamentals</span>
+                </div>
+              </div>
+            </div>
+            <div class="education__marker" aria-hidden="true">
+              <span class="education__marker-core"></span>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!--===== SKILLS =====-->
+      <section class="skills section" id="skills">
+        <div class="section-title">Skills</div>
+        <p class="section-copy skills__copy">
+          A backend-first full-stack toolkit shaped around Spring Boot APIs, MySQL data flows, React interfaces, Node.js services, and clean delivery.
+        </p>
+
+        <div class="skills__container bd-grid">
+          <article class="skills__category skills__category--frontend">
+            <div class="skills__category-head">
+              <span class="skills__category-icon" aria-hidden="true"><i class="fa-solid fa-laptop-code"></i></span>
+              <div>
+                <span class="skills__category-tag">Interface Systems</span>
+                <h2 class="skills__subtitle">Frontend</h2>
+                <p class="skills__text">Modern React-driven interfaces with responsive structure, polished spacing, and clean interaction design.</p>
+              </div>
+            </div>
+            <div class="skills__category-metrics" aria-hidden="true">
+              <span>Responsive Layouts</span>
+              <span>React Components</span>
+            </div>
+            <ul class="skills__group" role="list">
+              <li class="skills__card">
+                <span class="skills__card-icon" aria-hidden="true"><i class="fa-brands fa-html5"></i></span>
+                <span class="skills__card-copy">
+                  <span class="skills__name">HTML5</span>
+                  <span class="skills__hint">Semantic structure</span>
+                </span>
+              </li>
+              <li class="skills__card">
+                <span class="skills__card-icon" aria-hidden="true"><i class="fa-brands fa-css3-alt"></i></span>
+                <span class="skills__card-copy">
+                  <span class="skills__name">CSS3</span>
+                  <span class="skills__hint">Visual systems</span>
+                </span>
+              </li>
+              <li class="skills__card">
+                <span class="skills__card-icon" aria-hidden="true"><i class="fa-brands fa-js"></i></span>
+                <span class="skills__card-copy">
+                  <span class="skills__name">JavaScript</span>
+                  <span class="skills__hint">Dynamic interactions</span>
+                </span>
+              </li>
+              <li class="skills__card">
+                <span class="skills__card-icon" aria-hidden="true"><i class="fa-brands fa-react"></i></span>
+                <span class="skills__card-copy">
+                  <span class="skills__name">ReactJS</span>
+                  <span class="skills__hint">Component-driven UI</span>
+                </span>
+              </li>
+              <li class="skills__card">
+                <span class="skills__card-icon" aria-hidden="true"><i class="fa-solid fa-mobile-alt"></i></span>
+                <span class="skills__card-copy">
+                  <span class="skills__name">Responsive UI</span>
+                  <span class="skills__hint">Adaptive layouts</span>
+                </span>
+              </li>
+            </ul>
+          </article>
+
+          <article class="skills__category skills__category--backend">
+            <div class="skills__category-head">
+              <span class="skills__category-icon" aria-hidden="true"><i class="fa-solid fa-server"></i></span>
+              <div>
+                <span class="skills__category-tag">Application Logic</span>
+                <h2 class="skills__subtitle">Backend</h2>
+                <p class="skills__text">Service-oriented engineering focused on Java, Spring Boot, Node.js, and practical full-stack implementation.</p>
+              </div>
+            </div>
+            <div class="skills__category-metrics" aria-hidden="true">
+              <span>Spring Boot APIs</span>
+              <span>DSA Mindset</span>
+            </div>
+            <ul class="skills__group" role="list">
+              <li class="skills__card">
+                <span class="skills__card-icon" aria-hidden="true"><i class="fa-brands fa-java"></i></span>
+                <span class="skills__card-copy">
+                  <span class="skills__name">Java</span>
+                  <span class="skills__hint">Service logic</span>
+                </span>
+              </li>
+              <li class="skills__card">
+                <span class="skills__card-icon" aria-hidden="true"><i class="fa-solid fa-leaf"></i></span>
+                <span class="skills__card-copy">
+                  <span class="skills__name">Spring Boot</span>
+                  <span class="skills__hint">REST API development</span>
+                </span>
+              </li>
+              <li class="skills__card">
+                <span class="skills__card-icon" aria-hidden="true"><i class="fa-brands fa-node-js"></i></span>
+                <span class="skills__card-copy">
+                  <span class="skills__name">Node.js</span>
+                  <span class="skills__hint">Runtime services</span>
+                </span>
+              </li>
+              <li class="skills__card">
+                <span class="skills__card-icon" aria-hidden="true"><i class="fa-brands fa-python"></i></span>
+                <span class="skills__card-copy">
+                  <span class="skills__name">Python</span>
+                  <span class="skills__hint">Utilities and scripting</span>
+                </span>
+              </li>
+              <li class="skills__card">
+                <span class="skills__card-icon" aria-hidden="true"><i class="fa-solid fa-cubes"></i></span>
+                <span class="skills__card-copy">
+                  <span class="skills__name">Hibernate</span>
+                  <span class="skills__hint">ORM mapping</span>
+                </span>
+              </li>
+              <li class="skills__card">
+                <span class="skills__card-icon" aria-hidden="true"><i class="fa-solid fa-plug"></i></span>
+                <span class="skills__card-copy">
+                  <span class="skills__name">API Integration</span>
+                  <span class="skills__hint">Connected services</span>
+                </span>
+              </li>
+            </ul>
+          </article>
+
+          <article class="skills__category skills__category--database">
+            <div class="skills__category-head">
+              <span class="skills__category-icon" aria-hidden="true"><i class="fa-solid fa-database"></i></span>
+              <div>
+                <span class="skills__category-tag">Data Foundations</span>
+                <h2 class="skills__subtitle">Database</h2>
+                <p class="skills__text">Relational data handling with a focus on dependable CRUD flows and structure.</p>
+              </div>
+            </div>
+            <div class="skills__category-metrics" aria-hidden="true">
+              <span>Relational Modeling</span>
+              <span>Reliable CRUD</span>
+            </div>
+            <ul class="skills__group" role="list">
+              <li class="skills__card">
+                <span class="skills__card-icon" aria-hidden="true"><i class="fa-solid fa-database"></i></span>
+                <span class="skills__card-copy">
+                  <span class="skills__name">MySQL</span>
+                  <span class="skills__hint">Relational storage</span>
+                </span>
+              </li>
+              <li class="skills__card">
+                <span class="skills__card-icon" aria-hidden="true"><i class="fa-solid fa-table-columns"></i></span>
+                <span class="skills__card-copy">
+                  <span class="skills__name">SQL Queries</span>
+                  <span class="skills__hint">Data retrieval</span>
+                </span>
+              </li>
+              <li class="skills__card">
+                <span class="skills__card-icon" aria-hidden="true"><i class="fa-solid fa-layer-group"></i></span>
+                <span class="skills__card-copy">
+                  <span class="skills__name">Schema Design</span>
+                  <span class="skills__hint">Structured models</span>
+                </span>
+              </li>
+              <li class="skills__card">
+                <span class="skills__card-icon" aria-hidden="true"><i class="fa-solid fa-arrows-rotate"></i></span>
+                <span class="skills__card-copy">
+                  <span class="skills__name">CRUD Workflows</span>
+                  <span class="skills__hint">Backend operations</span>
+                </span>
+              </li>
+            </ul>
+          </article>
+
+          <article class="skills__category skills__category--tools">
+            <div class="skills__category-head">
+              <span class="skills__category-icon" aria-hidden="true"><i class="fa-solid fa-screwdriver-wrench"></i></span>
+              <div>
+                <span class="skills__category-tag">Workflow Toolkit</span>
+                <h2 class="skills__subtitle">Tools &amp; Technologies</h2>
+                <p class="skills__text">Workflow, tooling, and disciplined iteration that support maintainable delivery and modern development speed.</p>
+              </div>
+            </div>
+            <div class="skills__category-metrics" aria-hidden="true">
+              <span>Version Control</span>
+              <span>AI-Assisted Workflow</span>
+            </div>
+            <ul class="skills__group" role="list">
+              <li class="skills__card">
+                <span class="skills__card-icon" aria-hidden="true"><i class="fa-brands fa-github"></i></span>
+                <span class="skills__card-copy">
+                  <span class="skills__name">GitHub</span>
+                  <span class="skills__hint">Version control</span>
+                </span>
+              </li>
+              <li class="skills__card">
+                <span class="skills__card-icon" aria-hidden="true"><i class="fa-solid fa-code"></i></span>
+                <span class="skills__card-copy">
+                  <span class="skills__name">VS Code</span>
+                  <span class="skills__hint">Rapid development</span>
+                </span>
+              </li>
+              <li class="skills__card">
+                <span class="skills__card-icon" aria-hidden="true"><i class="fa-solid fa-desktop"></i></span>
+                <span class="skills__card-copy">
+                  <span class="skills__name">Eclipse IDE</span>
+                  <span class="skills__hint">Java workflow</span>
+                </span>
+              </li>
+              <li class="skills__card">
+                <span class="skills__card-icon" aria-hidden="true"><i class="fa-solid fa-brain"></i></span>
+                <span class="skills__card-copy">
+                  <span class="skills__name">DSA & Problem Solving</span>
+                  <span class="skills__hint">Analytical coding practice</span>
+                </span>
+              </li>
+              <li class="skills__card">
+                <span class="skills__card-icon" aria-hidden="true"><i class="fa-solid fa-wand-magic-sparkles"></i></span>
+                <span class="skills__card-copy">
+                  <span class="skills__name">AI-Assisted Workflow</span>
+                  <span class="skills__hint">Faster iteration, careful review</span>
+                </span>
+              </li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <!--===== PROJECTS =====-->
+      <section class="project-content section" id="projects">
+        <div class="section-title">Projects</div>
+        <p class="section-copy projects__copy">
+          Selected work across backend implementation, AI workflows, and frontend engineering, shaped to reflect practical problem-solving and polished developer execution.
+        </p>
+        <div class="container">
+          <div class="projects">
+            <article class="project project--smarttrack">
+              <div class="project__heading">
+                <div class="project__brand">
+                  <span class="project__logo" aria-hidden="true"><i class="fa-solid fa-layer-group"></i></span>
+                  <span class="project__eyebrow">Full Stack System</span>
+                </div>
+              </div>
+
+              <div class="project__content-main">
+                <div class="project__info">
+                  <h3 class="project__title">SmartTrack Full Stack System</h3>
+                  <p class="project__description">Expense Tracker and productivity tracking system focused on clean frontend interaction and backend workflow management.</p>
+                </div>
+
+                <div class="project__stack-section">
+                  <div class="project__stack" aria-label="Tech stack">
+                    <span class="project__tag" data-tech="html" title="HTML"><i class="fa-brands fa-html5"></i></span>
+                    <span class="project__tag" data-tech="css" title="CSS"><i class="fa-brands fa-css3-alt"></i></span>
+                    <span class="project__tag" data-tech="javascript" title="JavaScript"><i class="fa-brands fa-js"></i></span>
+                    <span class="project__tag" data-tech="java" title="Java"><i class="fa-brands fa-java"></i></span>
+                    <span class="project__tag" data-tech="mysql" title="MySQL"><i class="fa-solid fa-database"></i></span>
+                  </div>
+
+                  <div class="project__actions">
+                    <a href="https://github.com/RahulK087/smart-daily-tracker" class="project__button project__button--primary" target="_blank" rel="noreferrer" aria-label="View SmartTrack GitHub repository">
+                      <i class="fa-brands fa-github"></i>
+                      <span>GitHub</span>
+                    </a>
+                    <button type="button" class="project__button project__button--secondary project__toggle details-btn" data-project="smarttrack" aria-expanded="false" aria-controls="project-modal">
+                      <i class="fa-solid fa-arrow-right"></i>
+                      <span>Details</span>
+                    </button>
+                  </div>
+                </div>
+              </div>
+
+              <div class="project__details" id="project-details-smarttrack" aria-hidden="true" hidden>
+                <div class="project__details-inner">
+                  <ul class="project__features" role="list" aria-label="SmartTrack feature list">
+                    <li class="project__feature">Task workflow management</li>
+                    <li class="project__feature">Daily productivity tracking</li>
+                    <li class="project__feature">Responsive frontend layout</li>
+                    <li class="project__feature">Backend data handling</li>
+                    <li class="project__feature">Clean dashboard interaction</li>
+                    <li class="project__feature">Modern workflow UI</li>
+                    <li class="project__feature">Organized system structure</li>
+                  </ul>
+                </div>
+              </div>
+            </article>
+
+            <article class="project project--fitloopz">
+              <div class="project__heading">
+                <div class="project__brand">
+                  <span class="project__logo" aria-hidden="true"><i class="fa-solid fa-mobile-screen-button"></i></span>
+                  <span class="project__eyebrow">Mobile AI App</span>
+                </div>
+              </div>
+
+              <div class="project__content-main">
+                <div class="project__info">
+                  <div style="display: flex; align-items: center; gap: 0.8rem;">
+                    <h3 class="project__title" style="margin: 0;">FitLoopz AI Daily Life Manager</h3>
+                    <span class="project__status-badge">70% Complete</span>
+                  </div>
+                  <p class="project__description">AI-powered life management app combining fitness, tasks, chatbot workflows, reminders, and progress tracking.</p>
+                </div>
+
+                <div class="project__stack-section">
+                  <div class="project__stack" aria-label="Tech stack">
+                    <span class="project__tag" data-tech="react" title="React Native"><i class="fa-brands fa-react"></i></span>
+                    <span class="project__tag" data-tech="firebase" title="Firebase"><i class="fa-solid fa-fire"></i></span>
+                    <span class="project__tag" data-tech="ai" title="AI Workflow"><i class="fa-solid fa-wand-magic-sparkles"></i></span>
+                    <span class="project__tag" data-tech="tasks" title="Task System"><i class="fa-solid fa-list-check"></i></span>
+                    <span class="project__tag" data-tech="fitness" title="Fitness Tracking"><i class="fa-solid fa-dumbbell"></i></span>
+                  </div>
+
+                  <div class="project__actions">
+                    <button type="button" class="project__button project__button--secondary project__gallery" data-gallery="fitloopz" aria-label="View FitLoopz demo screenshots">
+                      <i class="fa-solid fa-images"></i>
+                      <span>Screenshots</span>
+                    </button>
+                    <button type="button" class="project__button project__button--secondary project__toggle details-btn" data-project="fitloopz" aria-expanded="false" aria-controls="project-modal">
+                      <i class="fa-solid fa-arrow-right"></i>
+                      <span>Details</span>
+                    </button>
+                  </div>
+                </div>
+              </div>
+
+              <div class="project__details" id="project-details-fitloopz" aria-hidden="true" hidden>
+                <div class="project__details-inner">
+                  <ul class="project__features" role="list" aria-label="FitLoopz feature list">
+                    <li class="project__feature">AI chatbot master control</li>
+                    <li class="project__feature">Daily task management</li>
+                    <li class="project__feature">Gym workout tracking</li>
+                    <li class="project__feature">Fitness progress analytics</li>
+                    <li class="project__feature">Food and calorie tracking</li>
+                    <li class="project__feature">Reminder system</li>
+                    <li class="project__feature">Smart daily workflow planning</li>
+                    <li class="project__feature">Expense management</li>
+                    <li class="project__feature">Voice-assisted productivity features</li>
+                    <li class="project__feature">Mobile-first experience</li>
+                  </ul>
+                </div>
+              </div>
+            </article>
+
+            <article class="project project--portfolio">
+              <div class="project__heading">
+                <div class="project__brand">
+                  <span class="project__logo" aria-hidden="true"><i class="fa-solid fa-code"></i></span>
+                  <span class="project__eyebrow">Portfolio Platform</span>
+                </div>
+              </div>
+
+              <div class="project__content-main">
+                <div class="project__info">
+                  <h3 class="project__title">Personal Portfolio Platform</h3>
+                  <p class="project__description">Responsive developer portfolio focused on animations, interaction quality, and clean frontend engineering.</p>
+                </div>
+
+                <div class="project__stack-section">
+                  <div class="project__stack" aria-label="Tech stack">
+                    <span class="project__tag" data-tech="html" title="HTML"><i class="fa-brands fa-html5"></i></span>
+                    <span class="project__tag" data-tech="css" title="CSS"><i class="fa-brands fa-css3-alt"></i></span>
+                    <span class="project__tag" data-tech="javascript" title="JavaScript"><i class="fa-brands fa-js"></i></span>
+                  </div>
+
+                  <div class="project__actions">
+                    <a href="https://github.com/RahulK087" class="project__button project__button--primary" target="_blank" rel="noreferrer" aria-label="View portfolio GitHub repository">
+                      <i class="fa-brands fa-github"></i>
+                      <span>GitHub</span>
+                    </a>
+                    <button type="button" class="project__button project__button--secondary project__toggle details-btn" data-project="portfolio" aria-expanded="false" aria-controls="project-modal">
+                      <i class="fa-solid fa-arrow-right"></i>
+                      <span>Details</span>
+                    </button>
+                  </div>
+                </div>
+              </div>
+
+              <div class="project__details" id="project-details-portfolio" aria-hidden="true" hidden>
+                <div class="project__details-inner">
+                  <ul class="project__features" role="list" aria-label="Portfolio feature list">
+                    <li class="project__feature">Smooth scrolling interactions</li>
+                    <li class="project__feature">Responsive mobile layout</li>
+                    <li class="project__feature">Premium dark UI</li>
+                    <li class="project__feature">Animated sections</li>
+                    <li class="project__feature">Project showcase system</li>
+                    <li class="project__feature">Contact interaction design</li>
+                    <li class="project__feature">Modern frontend styling</li>
+                  </ul>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <div class="project-modal" id="project-modal" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="project-modal-title">
+        <div class="project-modal__overlay" data-project-modal-overlay></div>
+        <div class="project-modal__content">
+          <button type="button" class="project-modal__close" aria-label="Close project details">
+            <i class="fa-solid fa-xmark" aria-hidden="true"></i>
+          </button>
+
+          <div class="project-modal__header">
+            <span class="project-modal__eyebrow"></span>
+            <h3 id="project-modal-title" class="project-modal__title"></h3>
+            <span class="project-modal__status" hidden></span>
+            <p class="project-modal__description"></p>
+              <div class="project-modal__stack popup-tech-stack"></div>
+                <ul class="project-modal__features"></ul>
+              <div class="project-modal__actions"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="gallery-modal" id="gallery-modal" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="gallery-modal-title">
+        <div class="gallery-modal__overlay" data-gallery-modal-overlay></div>
+        <div class="gallery-modal__content">
+          <button type="button" class="gallery-modal__close" aria-label="Close screenshot gallery">
+            <i class="fa-solid fa-xmark" aria-hidden="true"></i>
+          </button>
+
+          <div class="gallery-modal__header">
+            <span class="gallery-modal__eyebrow">FitLoopz Screenshot Gallery</span>
+            <h3 id="gallery-modal-title" class="gallery-modal__title">FitLoopz Preview</h3>
+            <p class="gallery-modal__subtitle">Explore screens from the mobile AI workflow experience in a polished gallery.</p>
+          </div>
+
+          <div class="gallery-modal__viewer">
+            <button type="button" class="gallery-modal__control gallery-modal__control--prev" aria-label="Previous screenshot">
+              <i class="fa-solid fa-chevron-left"></i>
+            </button>
+            <div class="gallery-modal__slide" aria-live="polite">
+              <div class="gallery-modal__empty">No screenshots added yet. Add image URLs to the gallery data.</div>
+              <img src="" alt="Screenshot preview" class="gallery-modal__image" hidden>
+            </div>
+            <button type="button" class="gallery-modal__control gallery-modal__control--next" aria-label="Next screenshot">
+              <i class="fa-solid fa-chevron-right"></i>
+            </button>
+          </div>
+
+          <div class="gallery-modal__pager"><span class="gallery-modal__count">0 / 0</span></div>
+          <div class="gallery-modal__thumbnails" role="list"></div>
+        </div>
+      </div>
+
+      <section class="collaboration section" id="collaboration">
+        <div class="section-title">Collaboration</div>
+        <p class="section-copy collaboration__copy">
+          Available for freelance collaborations, project discussions, startup ideas, and full-stack development work with clear communication.
+        </p>
+        <div class="collaboration__card">
+          <div class="collaboration__intro">
+            <span class="collaboration__badge">Available for Freelance &amp; Collaborations</span>
+            <h3 class="collaboration__title">Open to backend-first builds, startup ideas, and modern full-stack product work.</h3>
+            <p class="collaboration__text">
+              Best fit for Spring Boot APIs, scalable full-stack development, product discussions, and polished delivery that values both clarity and execution.
+            </p>
+            <div class="collaboration__response">
+              <i class="fa-solid fa-bolt" aria-hidden="true"></i>
+              <span>Usually replies within 24 hours</span>
+            </div>
+          </div>
+
+          <div class="collaboration__links" role="list" aria-label="Collaboration platforms">
+            <a href="#contact" class="collaboration__link collaboration__link--upwork" role="listitem" aria-label="Discuss Upwork collaboration">
+              <span class="collaboration__link-icon"><i class="fa-solid fa-briefcase"></i></span>
+              <span class="collaboration__link-copy">
+                <span class="collaboration__link-label">Upwork</span>
+                <strong>Available on request</strong>
+              </span>
+            </a>
+            <a href="#contact" class="collaboration__link collaboration__link--fiverr" role="listitem" aria-label="Discuss Fiverr collaboration">
+              <span class="collaboration__link-icon"><i class="fa-solid fa-store"></i></span>
+              <span class="collaboration__link-copy">
+                <span class="collaboration__link-label">Fiverr</span>
+                <strong>Available on request</strong>
+              </span>
+            </a>
+            <a href="#contact" class="collaboration__link collaboration__link--freelancer" role="listitem" aria-label="Discuss Freelancer collaboration">
+              <span class="collaboration__link-icon"><i class="fa-solid fa-laptop-file"></i></span>
+              <span class="collaboration__link-copy">
+                <span class="collaboration__link-label">Freelancer</span>
+                <strong>Available on request</strong>
+              </span>
+            </a>
+            <a href="https://www.linkedin.com/in/rahul-k-7b3923264" class="collaboration__link collaboration__link--linkedin" role="listitem" target="_blank" rel="noreferrer" aria-label="Open Rahul's LinkedIn profile">
+              <span class="collaboration__link-icon"><i class="fa-brands fa-linkedin"></i></span>
+              <span class="collaboration__link-copy">
+                <span class="collaboration__link-label">LinkedIn Collaboration</span>
+                <strong>Professional network</strong>
+              </span>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!--===== CONTACT =====-->
+      <section class="contact section" id="contact">
+        <div class="section-title">Contact</div>
+        <div class="reply-badge">
+          ⚡ Usually replies within 24 hours
+        </div>
+        <p class="section-copy contact__copy">
+          Have an opportunity, collaboration, or product idea in mind? Send a message and I'll get back with a focused response.
+        </p>
+        <div class="container">
+          <div class="content">
+            <div class="contact__panel">
+              <span class="contact__eyebrow">Let's Build</span>
+              <h3 class="contact__subtitle">Start a sharper developer conversation.</h3>
+              <p class="contact__text">
+                I'm open to developer roles, freelance builds, and product collaborations where clean execution and thoughtful user experience both matter.
+              </p>
+              <div class="contact__meta" role="list" aria-label="Contact details">
+                <div class="contact__meta-item" role="listitem">
+                  <i class="fas fa-envelope"></i>
+                  <span>rahule872001@gmail.com</span>
+                </div>
+                <div class="contact__meta-item" role="listitem">
+                  <i class="fas fa-location-dot"></i>
+                  <span>Chennai, TamilNadu</span>
+                </div>
+              </div>
+              <div class="image-box">
+                <img draggable="false" src="./assets/img/contact.gif" alt="Animated illustration for contacting Rahul">
+              </div>
+            </div>
+            <form id="contact__form" novalidate>
+              <div class="contact__form-intro">
+                <span class="contact__form-badge">Direct Message</span>
+                <p class="contact__form-copy">Share the role, product idea, or project scope and I'll reply with a focused next step.</p>
+              </div>
+
+              <div class="form-group">
+                <label class="field field--half" for="contact-name">
+                  <span class="field__label">Name</span>
+                  <span class="field__control">
+                    <input type="text" id="contact-name" name="from_name" placeholder="Your name" autocomplete="name" aria-describedby="contact-name-error" required>
+                    <i class="fas fa-user"></i>
+                  </span>
+                  <span class="field__error" id="contact-name-error" aria-live="polite"></span>
+                </label>
+
+                <label class="field field--half" for="contact-email">
+                  <span class="field__label">Email</span>
+                  <span class="field__control">
+                    <input type="email" id="contact-email" name="reply_to" placeholder="you@example.com" autocomplete="email" aria-describedby="contact-email-error" required>
+                    <i class="fas fa-envelope"></i>
+                  </span>
+                  <span class="field__error" id="contact-email-error" aria-live="polite"></span>
+                </label>
+
+                <label class="field field--full" for="contact-subject">
+                  <span class="field__label">Subject</span>
+                  <span class="field__control">
+                    <input type="text" id="contact-subject" name="subject" placeholder="What would you like to discuss?" aria-describedby="contact-subject-error" required>
+                    <i class="fas fa-pen-to-square"></i>
+                  </span>
+                  <span class="field__error" id="contact-subject-error" aria-live="polite"></span>
+                </label>
+
+                <label class="message field--full" for="contact-message">
+                  <span class="field__label">Message</span>
+                  <span class="field__control field__control--textarea">
+                    <textarea id="contact-message" name="message" placeholder="Tell me about the role, project, or collaboration idea." aria-describedby="contact-message-error" required></textarea>
+                    <i class="fas fa-comment-dots"></i>
+                  </span>
+                  <span class="field__error" id="contact-message-error" aria-live="polite"></span>
+                </label>
+              </div>
+
+              <div class="button-area">
+                <button type="submit" id="contact-submit">
+                  <span class="button__spinner" aria-hidden="true"></span>
+                  <span class="button__text">Send Message</span>
+                  <i class="fa fa-paper-plane" aria-hidden="true"></i>
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
+
+      <!--===== FOOTER =====-->
+      <section class="footer">
+        <div class="box-container">
+          <div class="box">
+            <h3>Rahul's Portfolio</h3>
+            <p>Thank you for visiting my personal portfolio website. Connect with me over socials.<br><br>Keep rising. Feel free to stay connected and reach out for any collaborations or inquiries.</p>
+          </div>
+          <div class="box">
+            <h3>Contact Info</h3>
+            <p><i class="fas fa-phone"></i>+91 936-070-XXXX</p>
+            <p><i class="fas fa-envelope"></i>rahule872001@gmail.com</p>
+            <p><i class="fas fa-map-marked-alt"></i>Chennai, TamilNadu</p>
+            <div class="share">
+              <a href="https://www.linkedin.com/in/rahul-k-7b3923264" class="fab fa-linkedin" aria-label="LinkedIn" target="_blank" rel="noreferrer"></a>
+              <a href="https://github.com/RahulK087" class="fab fa-github" aria-label="GitHub" target="_blank" rel="noreferrer"></a>
+              <a href="mailto:rahule872001@gmail.com" class="fas fa-envelope" aria-label="Mail"></a>
+              <a href="https://www.instagram.com/_rahul_0_8_7?igshid=YmMyMTA2M2Y%3D" class="fab fa-instagram" aria-label="Instagram" target="_blank" rel="noreferrer"></a>
+              <a href="" class="fab fa-telegram-plane" aria-label="Telegram" target="_blank" rel="noreferrer"></a>
+            </div>
+          </div>
+        </div>
+
+        <h3 class="credit">Designed with <i class="fa fa-heart pulse"></i> by <a href="https://www.linkedin.com/in/rahul-k-7b3923264" target="_blank" rel="noreferrer">Rahul K</a></h3>
+      </section>
+      <!-- footer section ends -->
+    </main>
+
+    <!--===== SCROLL REVEAL =====-->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!--===== EmailJS =====-->
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+    <!--===== MAIN JS =====-->
+    <script src="assets/js/main.js"></script>
+
+    <script>
+      AOS.init({
+        duration: 900,
+        once: true,
+        easing: "ease-out-cubic",
+        disable: window.matchMedia("(prefers-reduced-motion: reduce)").matches,
+      });
+    </script>
+  </body>
+</html>
