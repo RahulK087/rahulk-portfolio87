@@ -1,8 +1,21 @@
-# Rahul-s-portfolio.github.io
-This portfolio, crafted using HTML, CSS, and JavaScript, 
-showcases my educational background, project highlights, and skills. 
+# Rahul K Portfolio
+# live link :  https://rahul87-portfolio.netlify.app/
+Modern responsive developer portfolio built using HTML, CSS, JavaScript and EmailJS.
 
-![preview img](.//assets/img/preview.png)
+## Features
+- Responsive UI
+- Java Full Stack branding
+- Project showcase
+- Interactive modals
+- EmailJS contact form
+- Mobile optimized design
 
-For collaborations or inquiries, reach out using the contact details provided 
-in homepage.
+## Tech Stack
+- HTML5
+- CSS3
+- JavaScript
+- EmailJS
+- Font Awesome
+
+## Live Demo
+https://rahul87-portfolio.netlify.app/
